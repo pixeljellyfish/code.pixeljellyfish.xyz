@@ -1,0 +1,30 @@
+---
+interface Props {
+    title?: string;
+    description?: string;
+}
+const { title, description } = Astro.props;
+
+import { SEO } from "astro-seo";
+---
+
+<SEO
+    title={title || "Pixel"}
+    description={description || "pixeljellyfish is a developer from Aus."}
+    twitter={{
+        creator: "@pixeljellyfish",
+    }}
+    canonical="https://repo.pixeljellyfish.xyz/"
+    extend={{
+        link: [
+            { rel: "icon", href: "/favicon.png" }
+        ],
+        meta: [
+            { name: "twitter:title", content: title || "pixeljellyfish" },
+            { name: "twitter:description", content: description || "pixeljellyfish is a developer from Aus." },
+            { name: "viewport", content: "width=device-width, initial-scale=1"},
+            { name: "theme-color", content: "#3498db"}
+        ],
+    }}
+    export default Meta;
+/>
