@@ -9,22 +9,21 @@ import { SEO } from "astro-seo";
 ---
 
 <SEO
-    title={title || "Pixel"}
-    description={description || "pixeljellyfish is a developer from Aus."}
+    title={title || "Nebula"}
+    description={description || "Nebula is a developer from the US."}
     twitter={{
-        creator: "@pixeljellyfish",
+        creator: "@itsnebulalol"
     }}
-    canonical="https://repo.pixeljellyfish.xyz/"
+    canonical="https://itsnebula.net"
     extend={{
         link: [
             { rel: "icon", href: "/favicon.png" }
         ],
         meta: [
-            { name: "twitter:title", content: title || "pixeljellyfish" },
-            { name: "twitter:description", content: description || "pixeljellyfish is a developer from Aus." },
+            { name: "twitter:title", content: title || "Nebula" },
+            { name: "twitter:description", content: description || "Nebula is a developer from the US." },
             { name: "viewport", content: "width=device-width, initial-scale=1"},
             { name: "theme-color", content: "#3498db"}
         ],
     }}
-    export default Meta;
 />
