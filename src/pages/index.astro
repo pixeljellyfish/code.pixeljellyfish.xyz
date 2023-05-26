@@ -48,8 +48,8 @@ import { Icon } from 'astro-icon'
 		<SocialIcon name="Discord" href="https://discord.gg/" icon="ic:baseline-discord" />
 		<SocialIcon name="Email" href="mailto:me@devpixel12@gmail.com" icon="mdi:email" />
 	</div>
-	<div class="grid grid-cols-1 md:grid-cols-4 gap-6">
-		<MusicCard client:only="react" />
+	<div class="grid grid-cols-1 md:grid-cols-4 gap-10" >
+		<MusicCard client:only="react"/>
 		<DiscordStatus client:only="react"/>
 	</div>
 
@@ -57,10 +57,11 @@ import { Icon } from 'astro-icon'
 	<h3 class="font-medium mt-12">Projects</h3>
 	<p class="mb-4">These are projects that I have either created, or contributed in. I only feature my projects that I like here.</p>
 	<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-		<ProjectCard repo="palera1n/palera1n" id="fEM2hz" />
-		<ProjectCard repo="permasigner/permasigner" id="8JjeWC" />
-		<ProjectCard repo="itsnebulalol/itsnebula.net" id="GM98xT" />
-		<ProjectCard repo="itsnebulalol/modempatcher" id="JD783n" />
+		<ProjectCard repo="pixeljellyfish/repo" id="xoQx60" />
+		<ProjectCard repo="pixeljellyfish/c0mebackf0lders" id="4ZHCtv" />
+		<ProjectCard repo="pixeljellyfish/pixeljellyfish-code" id="xGHSiy" />
+		<ProjectCard repo="pixeljellyfish/wintrail" id="eZ2hS8" />
+		<ProjectCard repo="pixeljellyfish/ios-headers" id="y5Bs8x" />
 	</div>
 
 	<!-- Skills -->
@@ -77,9 +78,7 @@ import { Icon } from 'astro-icon'
 		<SkillCard name="Tailwind" icon="logos:tailwindcss-icon" />
 		<SkillCard name="c++" icon=logos:c-plusplus />
 		<SkillCard name="React" icon="logos:react" />
-		<SkillCard name="Next.js" icon="logos:nextjs-icon" />
+		<SkillCard name="Bash" icon="logos:bash-icon" />
 		<SkillCard name="Astro" icon="vscode-icons:file-type-astro" />
-
-		
 	</div>
 </Layout>

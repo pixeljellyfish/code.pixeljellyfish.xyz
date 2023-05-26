@@ -45,3 +45,39 @@
 .prose img {
     @apply m-0;
 }
+
+.prose a {
+    @apply text-blue-500 dark:text-blue-400 underline;
+}
+
+.prose a:hover {
+    @apply text-blue-600 dark:text-blue-500;
+}
+
+.prose a:active {
+    @apply text-blue-700 dark:text-blue-600;
+}
+
+.prose a:visited {
+    @apply text-purple-500 dark:text-purple-400 underline;
+}
+
+.prose a:visited:hover {
+    @apply text-purple-600 dark:text-purple-500;
+}
+
+.prose a:visited:active {
+    @apply text-purple-700 dark:text-purple-600;
+}
+
+.prose a:visited:visited {
+    @apply text-purple-500 dark:text-purple-400 underline;
+}
+
+.prose a:visited:visited:hover {
+    @apply text-purple-600 dark:text-purple-500;
+}
+
+.prose a:visited:visited:active {
+    @apply text-purple-700 dark:text-purple-600;
+}
