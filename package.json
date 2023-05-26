@@ -1,5 +1,5 @@
 {
-  "name": "nebula-website",
+  "name": "pixeljellyfish-astro",
   "type": "module",
   "version": "1.0.0",
   "private": true,
@@ -11,6 +11,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/prism": "^2.1.2",
     "@astrojs/react": "^2.1.1",
     "@astrojs/rss": "^2.4.0",
     "@astrojs/tailwind": "^3.1.1",
@@ -24,7 +25,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-use-lanyard": "^0.3.0",
-    "tailwindcss": "^3.3.1",
+    "tailwindcss": "^3.3.2",
     "use-last-fm": "^0.6.1"
   },
   "pnpm": {

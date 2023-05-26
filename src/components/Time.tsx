@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { dayjs } from '@utils/dayjs'
+import React from 'react'
 
 const now = () => dayjs().tz()
 
@@ -24,7 +25,7 @@ const Time = () => {
 
   return (
     <p className="inline">
-      {date.format('MMMM Do, YYYY • hh:mm:ss A')}{' '}
+      {date.format('dddd, MMMM Do, YYYY • hh:mm:ss A')}{' '}
       {currentEvent && (
         <span className="font-bold">
           —{' '}

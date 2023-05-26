@@ -8,12 +8,12 @@ module.exports = {
             keyframes: {
                 gradient: {
                     "0%, 100%": {
-                        "background-size": "800% 800%",
-                        "background-position": "center top",
+                        "background-size": "400% 400%",
+                        "background-position": "center right",
                     },
                     "50%": {
-                        "background-size": "400% 400%",
-                        "background-position": "center center",
+                        "background-size": "100% 100%",
+                        "background-position": "center left",
                     },
                 },
             },

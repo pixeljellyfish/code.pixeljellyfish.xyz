@@ -3,13 +3,14 @@ import Layout from '@layouts/Default.astro';
 
 import { MusicCard } from '@components/MusicCard';
 import Time from '@components/Time';
-import VSCodeCard from '@components/VSCodeCard';
+import DiscordStatus from '@components/DiscordStatus';
 import ProjectCard from '@components/ProjectCard.astro';
 import SkillCard from '@components/SkillCard.astro';
 import SocialIcon from '@components/SocialIcon.astro';
 
 import { Icon } from 'astro-icon'
 ---
+
 
 <script>
 	// Weather
@@ -49,7 +50,7 @@ import { Icon } from 'astro-icon'
 	</div>
 	<div class="grid grid-cols-1 md:grid-cols-4 gap-6">
 		<MusicCard client:only="react" />
-		<VSCodeCard client:only="react"/>
+		<DiscordStatus client:only="react"/>
 	</div>
 
 	<!-- Projects -->

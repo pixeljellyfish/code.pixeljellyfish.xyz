@@ -1,3 +1,4 @@
+import React = require('react');
 import { useLastFM } from 'use-last-fm'
 
 export const MusicCard = () => {
