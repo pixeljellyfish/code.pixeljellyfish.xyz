@@ -20,4 +20,4 @@ pnpm-debug.log*
 .DS_Store
 
 # github files
-/package-lock.json
+
